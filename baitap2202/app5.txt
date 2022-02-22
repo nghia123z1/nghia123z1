@@ -1,0 +1,35 @@
+gói  bt ;
+
+nhập  java.util.Scanner ;
+
+ lớp  công khai App5 {
+
+	public  static  void  main ( String [] args ) {
+		Máy quét sc = Máy quét mới  ( Hệ thống . In);
+		Hệ thống . ra ngoài . println ( " nhập số muốn ktra: " );
+		int n = sc . nextInt ();
+		int sum = 0 ;
+		for ( int i = 1 ; i < n; i ++ )
+		{
+			nếu (n % i == 0 )
+			{
+				tổng + = i;
+			}
+		}
+		if (n == sum)
+		{
+			Hệ thống . ra ngoài . println (n + " là số hoàn " );
+		}
+		khác
+		{
+			Hệ thống . ra ngoài . println (n + " is not a complete " );
+		}
+
+	}
+
+}
+© 2022 GitHub, Inc.
+Điều kiện
+Sự riêng tư
+Bảo vệ
+Trạng thái
